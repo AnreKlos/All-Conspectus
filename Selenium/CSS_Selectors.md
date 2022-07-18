@@ -1,10 +1,9 @@
 [Selectors](#T1) <br>
 [Pseudo classes](#T2) <br>
 [Attribute selectors](#T3) <br>
-[Picter](#T4) <br>
+[Picture](#T4) 
 
-
-<br><a name="T1"></a>  
+<a name="T1"></a>  
 ## Selectors
   
 | Selector | Atribut |
@@ -80,4 +79,10 @@ p:only-child |only child of its parent
 `input[type="button"]`|specified input type|
 
 <br><a name="T4"></a> 
+## Picture
 ![CSS - омбинированные селекторы](https://user-images.githubusercontent.com/84935915/179619144-0a66557c-f4a2-492f-a859-4ead65209053.png)
+
+[Selectors](#T1) <br>
+[Pseudo classes](#T2) <br>
+[Attribute selectors](#T3) <br>
+[Picture](#T4) <br>
