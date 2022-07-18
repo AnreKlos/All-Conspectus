@@ -20,6 +20,8 @@ finally:
     driver.close()
     driver.quit()
 ```
+
+## Считывает из импортированного (from useragent_list import UserAgent_List) питон файла хэдэры
 ```
 
 from selenium import webdriver
