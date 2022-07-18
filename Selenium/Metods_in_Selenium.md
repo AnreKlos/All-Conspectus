@@ -10,8 +10,8 @@
 | `driver.save_screenshot('2.png')`                                |**сделать скриншот**
 |  `email_input = driver.find_element(By.CSS_SELECTOR, '[name="login"]')`  |**поиск по css селектору** 
 |`email_input.send_keys('123')` |**ввод текста**
-|`` |****
-| `` |****
+|`button = driver.find_element(By.CSS_SELECTOR, 'button.vkc__Button__container').click()` |**поиск кнопки и клик по ней**
+| `button.send_keys(Keys.ENTER)` |**нажатие на ENTER**
 | `` |****
 | `` |****
 
