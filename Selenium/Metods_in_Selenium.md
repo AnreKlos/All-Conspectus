@@ -8,15 +8,19 @@
 |`driver.refresh()`                                                |**обновить окно браузера**
 |`driver.get_screenshot_as_file("1.png")`                          | **сделать скриншот**
 | `driver.save_screenshot('2.png')`                                |**сделать скриншот**
-|    | 
-| |
-| |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  | 
-|  | 
-|  | 
-|  |
+|  `email_input = driver.find_element(By.CSS_SELECTOR, '[name="login"]')`  |**поиск по css селектору** 
+|`email_input.send_keys('123')` |**ввод текста**
+|`` |****
+| `` |****
+| `` |****
+| `` |****
+
+|метод|значение
+----|-----
+|`from selenium.webdriver.common.by import By`|**для поиска элеменов**
+| `from selenium.webdriver.common.keys import Keys` |**импорт эмуляции нажатия клавиш**
+| `` |****
+| `` | ****
+|``  | ****
+|  ``| ****
+| `` |****
