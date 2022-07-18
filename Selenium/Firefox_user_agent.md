@@ -27,7 +27,6 @@ finally:
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 import random
-import time
 from useragent_list import UserAgent_List
 
 ua = UserAgent_List
