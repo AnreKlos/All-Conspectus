@@ -31,7 +31,7 @@ import time
 from useragent_list import UserAgent_List
 
 ua = UserAgent_List
-# ua = UserAgent_List
+
 profile = webdriver.FirefoxProfile()
 profile.set_preference("general.useragent.override", f"{random.choice(ua)}")
 
