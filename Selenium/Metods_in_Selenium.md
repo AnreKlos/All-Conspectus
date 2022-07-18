@@ -15,11 +15,13 @@
 | `` |****
 | `` |****
 
+----
+
 |метод|значение
 ----|-----
 |`from selenium.webdriver.common.by import By`|**для поиска элеменов**
 | `from selenium.webdriver.common.keys import Keys` |**импорт эмуляции нажатия клавиш**
-| `` |****
+| `import pickle` |**для сохранения Cookies**
 | `` | ****
 |``  | ****
 |  ``| ****
