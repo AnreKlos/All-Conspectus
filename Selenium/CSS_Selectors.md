@@ -1,10 +1,10 @@
-[Selectors](T1)<br>
-[Pseudo classes](T2)<br>
-[Attribute selectors](T3)<br>
-[Picter](T4)<br>
+[Selectors](#T1) <br>
+[Pseudo classes](#T2) <br>
+[Attribute selectors](#T3) <br>
+[Picter](#T4) <br>
 
-<a>
-  
+
+<br><a name="T1"></a>  
 ## Selectors
   
 | Selector | Atribut |
@@ -22,6 +22,7 @@ div.classname|divs with certain classname
 div#idname |div with certain ID
 #idname *  |all elements inside #idname
 
+<br><a name="T2"></a> 
 ## Pseudo classes
 
 | Selector            | Atribut
@@ -64,6 +65,7 @@ p:only-child |only child of its parent
 ::selection|portion selected by user
 :target|highlight active anchor
 
+<br><a name="T3"></a> 
 ## Attribute selectors
 
 | Selector            | Atribut
@@ -77,4 +79,5 @@ p:only-child |only child of its parent
 `[class$="chair"]`|class ends with chair|
 `input[type="button"]`|specified input type|
 
+<br><a name="T4"></a> 
 ![CSS - омбинированные селекторы](https://user-images.githubusercontent.com/84935915/179619144-0a66557c-f4a2-492f-a859-4ead65209053.png)
