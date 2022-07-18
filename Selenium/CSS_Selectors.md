@@ -1,4 +1,11 @@
+[Selectors](T1)<br>
+[Pseudo classes](T2)<br>
+[Attribute selectors](T3)<br>
+[Picter](T4)<br>
+
+<a>
 ## Selectors
+  
 | Selector | Atribut |
 |----------|---------|
 |*         |all elements|
@@ -69,3 +76,4 @@ p:only-child |only child of its parent
 `[class$="chair"]`|class ends with chair|
 `input[type="button"]`|specified input type|
 
+![CSS - омбинированные селекторы](https://user-images.githubusercontent.com/84935915/179619144-0a66557c-f4a2-492f-a859-4ead65209053.png)
