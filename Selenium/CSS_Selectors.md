@@ -23,6 +23,7 @@ div#idname |div with certain ID
 
 <a name="T2"></a> 
 ## Pseudo classes
+![1](https://user-images.githubusercontent.com/84935915/179760336-6bfe5f4f-0958-4808-8b0a-13a9489cb031.png)
 
 | Selector            | Atribut
 ----------------------|---------------------
@@ -86,6 +87,14 @@ p:only-child |only child of its parent
 <a name="T4"></a> 
 ## Picture
 ![CSS - омбинированные селекторы](https://user-images.githubusercontent.com/84935915/179619144-0a66557c-f4a2-492f-a859-4ead65209053.png)
+
+## Поиск по тексту
+
+Пример:
+
+![1](https://user-images.githubusercontent.com/84935915/179760403-099fe55c-29ac-409a-a504-59df79b9a659.png)
+
+Как видим id явно сгенерирован и привязаться к нему нельзя, класс тоже не внушает доверия, кроме того Selenium не разрешает использовать сложносоставные имена в локаторе className, но тут есть текст, который решает проблему: `//a[text()=’Contact us’]`
 
 [Selectors](#T1) <br>
 [Pseudo classes](#T2) <br>
