@@ -1,3 +1,7 @@
 ![Скриншот 23-07-2022 00 47 42](https://user-images.githubusercontent.com/84935915/180573196-f7f08a6b-7749-4fcb-a049-c2605844519b.png)
 
 ![Скриншот 23-07-2022 00 48 17](https://user-images.githubusercontent.com/84935915/180573205-8939266a-4b67-49ff-b60d-9c064390b92a.png)
+
+### pip 
+`pip fize` - показывает установленные пакеты
+`django-admin` - показывает правильность установки django
