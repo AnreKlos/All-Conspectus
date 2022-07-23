@@ -39,9 +39,10 @@ C:\Users\Name\djangogirls> python -m venv myvenv
 C:\Users\Name\djangogirls> myvenv\Scripts\activate
 ```
 >**Примечание:**  в Windows 10 при работе в Windows PowerShell ты можешь получить ошибку вида `execution of scripts is disabled on this system`. В этом случае открой ещё одно окно Windows PowerShell, выбрав опцию «Запустить от имени Администратора». Затем перед использованием виртуального окружения попробуй запустить следующую команду:
-`command-line`
-```
-C:\WINDOWS\system32> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-    Execution Policy Change
-    The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
-```
+>
+>`command-line`
+>```
+>C:\WINDOWS\system32> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+>    Execution Policy Change
+>    The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the >about_Execution_Policies help topic at http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] >No to All  [S] Suspend  [?] Help (default is "N"): A
+>```
