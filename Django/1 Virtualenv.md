@@ -31,7 +31,7 @@ C:\Users\Name\djangogirls> python -m venv myvenv
 Здесь `myvenv` — имя твоего `virtualenv`. Ты можешь выбрать другое имя, но используй только строчные буквы, без пробелов и специальных символов. *Имя виртуального окружения выбирай покороче — тебе придётся часто его набирать!*
 
 ## Работаем с virtualenv
-Указанная выше команда создаст директорию myvenv (или другую, в зависимости от выбранного тобой имени), которая будет содержать виртуальное окружение (по сути — набор файлов и папок).
+<sup>Указанная выше команда</sup> создаст директорию myvenv (или другую, в зависимости от выбранного тобой имени), которая будет содержать виртуальное окружение (по сути — набор файлов и папок).
 
 Запусти виртуальное окружение, выполнив:
 
@@ -57,3 +57,26 @@ C:\Users\Name\djangogirls> myvenv\Scripts\activate
 (myvenv) ~$ python3 -m pip install --upgrade pip
 ```
 ## Установка библиотек через указание требований
+
+Файл с требованиями (`requirements`) хранит список зависимостей, которые нужно установить с помощью `pip install`:
+
+Для начала создай файл `requirements.txt` внутри директории `djangogirls/`, используя текстовый редактор, который ты установила ранее. Просто создай в редакторе новый файл, а затем сохрани его под именем `requirements.txt` в директории `djangogirls/`. После этого твоя директория будет выглядеть так:
+
+```
+djangogirls
+└───requirements.txt
+```
+В файл `djangogirls/requirements.txt` нужно добавить такой текст:
+`djangogirls/requirements.txt`
+```
+Django~=3.2.10
+```
+Теперь выполни команду pip install -r requirements.txt, чтобы установить Django.
+`command-line`
+```
+(myvenv) ~$ pip install -r requirements.txt
+Collecting Django~=3.2.10 (from -r requirements.txt (line 1))
+  Downloading Django-3.2.10-py3-none-any.whl (7.1MB)
+Installing collected packages: Django
+Successfully installed Django-3.2.10
+```
