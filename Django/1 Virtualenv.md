@@ -55,3 +55,4 @@ C:\Users\Name\djangogirls> myvenv\Scripts\activate
 ```
 (myvenv) ~$ python3 -m pip install --upgrade pip
 ```
+## Установка библиотек через указание требований
