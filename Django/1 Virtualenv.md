@@ -46,3 +46,12 @@ C:\Users\Name\djangogirls> myvenv\Scripts\activate
 >    Execution Policy Change
 >    The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the >about_Execution_Policies help topic at http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] >No to All  [S] Suspend  [?] Help (default is "N"): A
 >```
+## Установка Django
+После запуска `virtualenv` ты можешь установить `Django`.
+
+Перед этим мы должны удостовериться, что у тебя установлена последняя версия `pip` — программы, которую мы используем для установки `Django`.
+
+`command-line`
+```
+(myvenv) ~$ python3 -m pip install --upgrade pip
+```
