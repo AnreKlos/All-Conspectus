@@ -16,3 +16,7 @@
 
 - Теперь мы можем анализировать всё что относится к реквесту
 - ![Скриншот 25-07-2022 21 48 16](https://user-images.githubusercontent.com/84935915/180851862-372ee29d-2029-4d4d-9574-386dad759c79.png)
+
+
+
+[Отладка Django в Pycharm. Debug Django Pycharm](https://www.youtube.com/watch?v=Yr_x1CJBj2A&list=PLQAt0m1f9OHvGM7Y7jAQP8TKbBd3up4K2&index=12)
