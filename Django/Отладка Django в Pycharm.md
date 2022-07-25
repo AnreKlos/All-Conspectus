@@ -2,6 +2,7 @@
 Отладка - остановка программы в определённых точках. Нужна для поиска ошибок в программе и для просмотра состояния переменных.
 
 ## Создание файла конфигурации
+
 - Жмём `Add Configuration` 
 - ![Скриншот 25-07-2022 21 27 59](https://user-images.githubusercontent.com/84935915/180848301-73835a36-a1d1-4917-b866-18293b0a7f95.png)
 
@@ -10,6 +11,10 @@
 
 - Даём название, в `Parametrs` прописываем `manage.py runserver` и в `Working directory:` выбираем папку нашего проэкта.
 - ![Скриншот 25-07-2022 21 34 09](https://user-images.githubusercontent.com/84935915/180849376-55bbb619-1ce7-4fdd-bc8b-d06ef9b19cb5.png)
+
+- Выставляем точки остановы
+- ![Скриншот 25-07-2022 22 23 16](https://user-images.githubusercontent.com/84935915/180858413-52776495-5394-40b6-af3f-675dcb51e830.png)
+
 
 - Останавливаем сервер а потом запускаем его при помощи жучка
 - ![Скриншот 25-07-2022 21 43 17](https://user-images.githubusercontent.com/84935915/180850908-7090bc6e-220f-494c-b856-8593eb1868ac.png)
@@ -20,6 +25,8 @@
 - Что бы программа продолжила выполняться жмём зелёный треугольник
 - ![Скриншот 25-07-2022 22 19 17](https://user-images.githubusercontent.com/84935915/180857473-405a283f-b100-44c1-a2af-1f739cdc3c54.png)
 
+- Теперь, если не выставлять красные точки - программу можно запускать через обычный пуск. Без набора команд в командной строке
+- ![Скриншот 25-07-2022 22 23 50](https://user-images.githubusercontent.com/84935915/180858301-83d92cd7-6ca5-47e3-aec7-90758f8a855c.png)
 
 
 [Отладка Django в Pycharm. Debug Django Pycharm](https://www.youtube.com/watch?v=Yr_x1CJBj2A&list=PLQAt0m1f9OHvGM7Y7jAQP8TKbBd3up4K2&index=12)
