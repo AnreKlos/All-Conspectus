@@ -10,3 +10,6 @@
 
 - Даём название, в `Parametrs` прописываем `manage.py runserver` и в `Working directory:` выбираем папку нашего проэкта.
 - ![Скриншот 25-07-2022 21 34 09](https://user-images.githubusercontent.com/84935915/180849376-55bbb619-1ce7-4fdd-bc8b-d06ef9b19cb5.png)
+
+- Останавливаем сервер а потом запускаем его при помощи жучка
+-![Скриншот 25-07-2022 21 43 17](https://user-images.githubusercontent.com/84935915/180850908-7090bc6e-220f-494c-b856-8593eb1868ac.png)
