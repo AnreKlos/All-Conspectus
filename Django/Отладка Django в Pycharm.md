@@ -7,3 +7,6 @@
 
 - Жмём `+` и выбираем `Python`
 - ![Скриншот 25-07-2022 21 29 21](https://user-images.githubusercontent.com/84935915/180848532-fb6f4835-4a80-4b1a-be58-68446f4c40f9.png)
+
+- Даём название, в `Parametrs` прописываем `manage.py runserver` и в `Working directory:` выбираем папку нашего проэкта.
+- ![Скриншот 25-07-2022 21 34 09](https://user-images.githubusercontent.com/84935915/180849376-55bbb619-1ce7-4fdd-bc8b-d06ef9b19cb5.png)
